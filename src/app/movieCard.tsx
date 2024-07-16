@@ -64,7 +64,7 @@ const MovieCard = () => {
             </svg>
             </Button>
             </div>
-            <div className="bg-dark p-2 m-1">
+            <div className="rating">
               <CardText>{movie.judul}</CardText>
               <CardText className="rating-card" ></CardText>
                 Rating:
