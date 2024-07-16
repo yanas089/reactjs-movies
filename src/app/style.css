@@ -1,0 +1,36 @@
+.text-center {
+    position: relative;
+
+}
+
+.large-header {
+    background:rgb(238, 158, 10);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.xxi-style{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 158, 10);
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; 
+}
+
+.button-container .btn {
+  flex: 1; 
+}
+.container-1{
+  font-size: medium;
+  color: rgb(0, 0, 0);
+  background-color: rgba(100, 100, 100, 0.596);
+}
+.movieImage{
+  background-color: transparent;
+  text-align: center;
+}
