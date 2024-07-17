@@ -6,6 +6,7 @@ import './globals.css';
 import MovieCard from './movieCard';
 import MovieForms from './movieforms';
 import MovieSlide from './movieslide';
+import MovieList from './movielist';
 
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#">Home</Nav.Link>
-              <Nav.Link href="">Movies</Nav.Link>
+              <Nav.Link href="/movielist">Movies</Nav.Link>
               <Nav.Link href="#">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
